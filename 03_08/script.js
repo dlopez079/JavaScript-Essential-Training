@@ -1,11 +1,15 @@
 var pens;
 pens = ["red", "blue", "green", "orange"];
+girls = ["Amanda", "Susan", "Vanessa", "Kalise"];
+fellas = ["Edwin", "Bobby", "Lucas", "Matthew", "Pablo"];
 
 console.log("Before: ", pens);
 
 // PROPERTIES:
 // Get a property of an object by name:
-console.log("Array length: ", pens.length);
+console.log("Array length for pens: ", pens.length);
+console.log("Array length for girls: ", girls.length);
+console.log("Array length for fellas: ", fellas.length);
 
 // METHODS:
 // Reverse the array:
