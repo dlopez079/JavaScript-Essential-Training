@@ -3,8 +3,10 @@ pens = ["red", "blue", "green", "orange"];
 girls = ["Amanda", "Susan", "Vanessa", "Kalise"];
 fellas = ["Edwin", "Bobby", "Lucas", "Matthew", "Pablo"];
 
+//Displays the above array;
 console.log("Before: ", pens);
-
+console.log("Before: ", girls);
+console.log("Before", fellas);
 // PROPERTIES:
 // Get a property of an object by name:
 console.log("Array length for pens: ", pens.length);
