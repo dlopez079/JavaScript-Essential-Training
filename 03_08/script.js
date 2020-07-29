@@ -7,6 +7,7 @@ fellas = ["Edwin", "Bobby", "Lucas", "Matthew", "Pablo"];
 console.log("Before: ", pens);
 console.log("Before: ", girls);
 console.log("Before", fellas);
+
 // PROPERTIES:
 // Get a property of an object by name:
 console.log("Array length for pens: ", pens.length);
@@ -15,7 +16,14 @@ console.log("Array length for fellas: ", fellas.length);
 
 // METHODS:
 // Reverse the array:
-// pens.reverse();
+pens.reverse();
+girls.reverse();
+fellas.reverse();
+
+//Displays the above array reversed;
+console.log("Before: ", pens);
+console.log("Before: ", girls);
+console.log("Before", fellas);
 
 // Remove the first value of the array:
 // pens.shift();
