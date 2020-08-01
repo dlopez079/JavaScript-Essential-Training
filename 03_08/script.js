@@ -26,7 +26,14 @@ console.log("Before: ", girls);
 console.log("Before", fellas);
 
 // Remove the first value of the array:
-// pens.shift();
+pens.shift();
+girls.shift();
+fellas.shift();
+
+//Displays the above array reversed;
+console.log("Before: ", pens);
+console.log("Before: ", girls);
+console.log("Before", fellas);
 
 // Add comma-separated list of values to the front of the array:
 // pens.unshift("purple", "black");
