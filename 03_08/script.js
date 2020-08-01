@@ -21,31 +21,59 @@ girls.reverse();
 fellas.reverse();
 
 //Displays the above array reversed;
-console.log("Before: ", pens);
-console.log("Before: ", girls);
-console.log("Before", fellas);
+console.log("After Reverse: ", pens);
+console.log("After Reverse: ", girls);
+console.log("After Reverse:", fellas);
 
 // Remove the first value of the array:
 pens.shift();
 girls.shift();
 fellas.shift();
 
-//Displays the above array reversed;
-console.log("Before: ", pens);
-console.log("Before: ", girls);
-console.log("Before", fellas);
+//Displays the above array shift;
+console.log("After Shift: ", pens);
+console.log("After Shift: ", girls);
+console.log("After Shift:", fellas);
 
 // Add comma-separated list of values to the front of the array:
-// pens.unshift("purple", "black");
+pens.unshift("purple", "black");
+girls.unshift("Samantha", "Cortney");
+fellas.unshift("George", "Jeffrey");
+
+//Displays the above array comma-separated;
+console.log("After Unshift: ", pens);
+console.log("After Unshift: ", girls);
+console.log("After Unshift:", fellas);
 
 // Remove the last value of the array:
-// pens.pop();
+pens.pop();
+girls.pop();
+fellas.pop();
+
+//Displays the above array after last value was removed;
+console.log("After Pop: ", pens);
+console.log("After Pop: ", girls);
+console.log("After Pop: ", fellas);
 
 // Add comma-separated list of values to the end of the array:
-// pens.push("pink", "prussian blue");
+pens.push("pink", "prussian blue");
+girls.push("Karina", "Jasmin");
+fellas.push("William", "Bryan");
+
+//Displays the above array after values were added to the end of the array;
+console.log("After Push: ", pens);
+console.log("After Push: ", girls);
+console.log("After Push: ", fellas);
 
 // Find the specified position (pos) and remove n number of items from the array. Arguments: pens.splice(pos,n):
-// pens.splice(pos, n) // Starts at the seccond item and removes two items.
+pens.splice(1, 1); // Remove black.
+girls.splice(0, 2); //Remove Samantha and Cortney
+fellas.splice(4, 3); //Remove Bobby William Bryan
+
+//Displays the above array after certain values are removed;
+console.log("After Splice: ", pens);
+console.log("After Splice: ", girls);
+console.log("After Splice: ", fellas);
 
 // console.log("After: ", pens);
 
