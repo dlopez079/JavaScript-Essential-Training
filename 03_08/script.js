@@ -114,8 +114,16 @@ console.log("New fellas array: ", newFellas);
 console.log("New numbers array: ", newNumbers);
 
 // Return the first element that matches the search parameter after the specified index position. Defaults to index position 0. Arguments: pens.indexOf(search, index):
-// var result = pens.indexOf(search, index);
-// console.log("The search result index is: ", result);
+var pensResult = pens.indexOf(search, index);
+var girlsResult = girls.indexOf(search, index);
+var fellasResult = fellas.indexOf(search, index);
+var numbersResult = numbers.indexOf(search, index);
+
+console.log(linebreak);
+console.log("The search result index is: ", pensResult);
+console.log("The search result index is: ", girlsResult);
+console.log("The search result index is: ", fellasResult);
+console.log("The search result index is: ", numbersResult);
 
 // Return the items in an array as a comma separated string. The separator argument can be used to change the comma to something else. Arguments: pens.join(separator):
 // var arrayString = pens.join(separator);
