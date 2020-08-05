@@ -2,38 +2,44 @@ var pens;
 pens = ["red", "blue", "green", "orange"];
 girls = ["Amanda", "Susan", "Vanessa", "Kalise"];
 fellas = ["Edwin", "Bobby", "Lucas", "Matthew", "Pablo"];
+numbers = ["one", "two", "three", "four", "five", "six"];
 
 //Displays the above array;
 console.log("Before: ", pens);
 console.log("Before: ", girls);
 console.log("Before", fellas);
-
+console.log("Before", numbers);
 // PROPERTIES:
 // Get a property of an object by name:
 console.log("Array length for pens: ", pens.length);
 console.log("Array length for girls: ", girls.length);
 console.log("Array length for fellas: ", fellas.length);
+console.log("Array length for numbers: ", numbers.length);
 
 // METHODS:
 // Reverse the array:
 pens.reverse();
 girls.reverse();
 fellas.reverse();
+numbers.reverse();
 
 //Displays the above array reversed;
 console.log("After Reverse: ", pens);
 console.log("After Reverse: ", girls);
 console.log("After Reverse:", fellas);
+console.log("After Reverse: ", numbers);
 
 // Remove the first value of the array:
 pens.shift();
 girls.shift();
 fellas.shift();
+numbers.shift();
 
 //Displays the above array shift;
 console.log("After Shift: ", pens);
 console.log("After Shift: ", girls);
 console.log("After Shift:", fellas);
+console.log("After Shift: ", numbers);
 
 // Add comma-separated list of values to the front of the array:
 pens.unshift("purple", "black");
