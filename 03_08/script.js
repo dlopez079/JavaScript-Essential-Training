@@ -77,29 +77,41 @@ console.log("After Pop: ", numbers);
 pens.push("pink", "prussian blue");
 girls.push("Karina", "Jasmin");
 fellas.push("William", "Bryan");
+numbers.push("one", "zero");
 
 //Displays the above array after values were added to the end of the array;
 console.log(linebreak);
 console.log("After Push: ", pens);
 console.log("After Push: ", girls);
 console.log("After Push: ", fellas);
+console.log("After Push: ", numbers);
 
 // Find the specified position (pos) and remove n number of items from the array. Arguments: pens.splice(pos,n):
 pens.splice(1, 1); // Remove black.
 girls.splice(0, 2); //Remove Samantha and Cortney
 fellas.splice(4, 3); //Remove Bobby William Bryan
+numbers.splice(0, 2); //Remove "1", "2"
 
 //Displays the above array after certain values are removed;
 console.log(linebreak);
 console.log("After Splice: ", pens);
 console.log("After Splice: ", girls);
 console.log("After Splice: ", fellas);
+console.log("After Splice: ", numbers);
 
 // console.log("After: ", pens);
 
 // Create a copy of an array. Typically assigned to a new variable:
-// var newPens = pens.slice();
-// console.log("New pens: ", newPens);
+var newPens = pens.slice();
+var newGirls = girls.slice(); //Slice method creates a copy of the girls array.
+var newFellas = fellas.slice(); //Slice method creates a copy of the numbers array.
+var newNumbers = numbers.slice(); //Slice method creates a copy of the numbers array..
+
+console.log(linebreak);
+console.log("New pens array: ", newPens);
+console.log("New girls array: ", newGirls);
+console.log("New fellas array: ", newFellas);
+console.log("New numbers array: ", newNumbers);
 
 // Return the first element that matches the search parameter after the specified index position. Defaults to index position 0. Arguments: pens.indexOf(search, index):
 // var result = pens.indexOf(search, index);
